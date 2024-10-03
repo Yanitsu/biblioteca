@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 199, 199);
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: rgb(239, 199, 199);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(246, 194, 194);
+    text-decoration: none;
+}
+
+/* Seção de catálogo */
+.catalogo {
+    padding: 20px;
+    text-align: center;
+}
+
+.catalogo h2 {
+    color: #333;
+}
+
+.livro {
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.livro h3 {
+    color: #444;
+}
+
+.livro p {
+
+    color: #666;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 35%;
+}
